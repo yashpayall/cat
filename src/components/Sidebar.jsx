@@ -6,7 +6,7 @@ const Sidebar = ({ active, setActive }) => {
     <div className="flex flex-col gap-8 items-center bg-[#EB879C] w-full h-screen p-6 relative">
       <div
         onClick={() => setActive(!active)}
-        className="absolute top-4 right-4 hover:rotate-90 duration-300 ease-in-out">
+        className="absolute cursor-pointer top-4 right-4 hover:rotate-90 duration-300 ease-in-out">
         <CrossIcon />
       </div>
       <a

@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MenuIcon, TeligramIcon, XIcon } from "./common/Icon";
 import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  useEffect(() => {
+    if (active) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
 
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [active]);
   return (
     <div>
       <header className="bg-[#DB3357]">

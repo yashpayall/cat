@@ -6,8 +6,8 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         barlow: ["Barlow", "sans-serif"],
-        comic: ["Comic Neue", "sans-serif"],
-        luckiest: ["Luckiest Guy", "sans-serif"],
+        comicneue: ["Comic Neue", "sans-serif"],
+        luckiestguy: ["Luckiest Guy", "sans-serif"],
       },
     },
   },
