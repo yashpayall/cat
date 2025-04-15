@@ -1,6 +1,7 @@
 import AboutCatMoney from "./components/AboutCatMoney";
 import AsSeenIn from "./components/AsSeenIn";
 import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <AsSeenIn />
       <AboutCatMoney />
+      <HowItWorks />
     </div>
   );
 }
